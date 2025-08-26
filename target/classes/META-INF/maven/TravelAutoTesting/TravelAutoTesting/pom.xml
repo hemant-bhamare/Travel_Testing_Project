@@ -1,0 +1,57 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>TravelAutoTesting</groupId>
+  <artifactId>TravelAutoTesting</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+<!-- for selenium-->
+  	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.25.0</version>
+	</dependency>
+  
+<!-- for TestNG-->
+	  <dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.10.2</version>
+		    <scope>test</scope>
+      </dependency>
+  
+<!-- for webdriverManager-->
+	  <dependency>
+	    <groupId>io.github.bonigarcia</groupId>
+	    <artifactId>webdrivermanager</artifactId>
+	    <version>5.9.2</version>
+	  </dependency>
+	  
+<!-- for TestNG-->
+	  <dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.10.2</version>
+	    <scope>test</scope>
+     </dependency>
+     
+<!-- for Apache poi-->
+     <dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi</artifactId>
+	    <version>5.2.3</version>
+     </dependency>
+  
+ <!-- for Junit-->
+  	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.13.2</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	
+  </dependencies>
+  
+  
+</project>
